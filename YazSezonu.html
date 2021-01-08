@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+<!--Eklenen kütüphaneler-->
+<script src="css/bootstrap-4.5.2-dist/js/jquery-3.5.1.min.js"></script>
+<script src="css/bootstrap-4.5.2-dist/js/popper.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+<script src="css/bootstrap-4.5.2-dist/js/bootstrap.min.js" ></script>
+<link rel="stylesheet" href="css/main.css">
+    
+<title>Alışveriş Sitesi</title>
+
+    
+</head>
+    <body>
+     <div class="container">
+    
+<!------------------------------------------------------- NAVBAR------------------------------------------------------->
+        
+<nav class="navbar navbar-expand-sm navbar-dark" style="background-color: black">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo" style="height: 80px;"></a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">ANA SAYFA</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Hakkimizda.html" target="_blank">HAKKIMIZDA</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Iletisim.html">İLETİŞİM</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Fragman.html">VIDEO</a>
+    </li>
+
+    <!-- Dropdown -->
+<li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        ALIŞVERİŞ
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="KisSezonu.html">Kış Sezonu</a>
+        <a class="dropdown-item" href="YazSezonu.html">Yaz Sezonu</a>
+        <a class="dropdown-item" href="IcGiyim.html">İç Giyim</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<!------------------------------------------------------- ACCORDION------------------------------------------------------->      
+        
+ <div id="accordion">
+  <div class="card" id="KartArkaplan">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <center><button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <a id="KartBaslik">T-Shirt</a>
+        </button></center>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body" id="KartGovde">
+          <div class="container-fluid">
+<div class="row">
+<div class="column" id="ColumnUrun">  
+<div class="card" id="KartUrun">
+    <img src="img/urun_tshirt1.jpg" class="card-img-top">
+    Marka<br>
+    17.90TL
+       <button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+</div>
+      </div>
+          
+<div class="column" id="ColumnUrun">
+<div class="card" id="KartUrun">
+<img src="img/urun_tshirt1.jpg" class="card-img-top">
+Marka<br>
+17.90TL
+<button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+                  
+</div></div>
+  
+<div class="column" id="ColumnUrun">         
+<div class="card" id="KartUrun">
+<img src="img/urun_tshirt2.jpg" class="card-img-top">
+Marka<br>
+17.90TL
+<button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+</div>
+</div>
+       
+<div class="column" id="ColumnUrun"> 
+<div class="card" id="KartUrun">
+<img src="img/urun_tshirt1.jpg" class="card-img-top">
+Marka<br>
+17.90TL
+<button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+</div>
+</div>
+    
+<div class="column" id="ColumnUrun"> 
+<div class="card" id="KartUrun">
+<img src="img/urun_tshirt1.jpg" class="card-img-top">
+Marka<br>
+17.90TL
+<button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+</div>
+</div>
+      
+<div class="column" id="ColumnUrun">
+<div class="card" id="KartUrun">
+<img src="img/urun_tshirt1.jpg" class="card-img-top">
+Marka<br>
+17.90TL
+<button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+</div>
+</div>  
+    
+<div class="column" id="ColumnUrun">
+<div class="card" id="KartUrun">
+<img src="img/urun_tshirt2.jpg" class="card-img-top">
+Marka<br>
+17.90TL
+<button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+</div>
+</div>
+</div>
+    
+    </div>
+      </div>
+        </div>
+  </div>
+  <div class="card" id="KartArkaplan">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <center><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <a id="KartBaslik">Şort ve Kapri</a>
+        </button></center>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+       
+ 
+ <div class="container-fluid">
+<div class="row">
+<div class="column" id="ColumnUrun">  
+<div class="card" id="KartUrun">
+    <img src="img/urun_tshirt1.jpg" class="card-img-top">
+    Marka<br>
+    17.90TL
+       <button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+</div>
+      </div>
+          
+<div class="column" id="ColumnUrun">
+<div class="card" id="KartUrun">
+<img src="img/urun_tshirt1.jpg" class="card-img-top">
+Marka<br>
+17.90TL
+<button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+                  
+</div></div>
+  
+<div class="column" id="ColumnUrun">         
+<div class="card" id="KartUrun">
+<img src="img/urun_tshirt2.jpg" class="card-img-top">
+Marka<br>
+17.90TL
+<button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+</div>
+</div>
+       
+<div class="column" id="ColumnUrun"> 
+<div class="card" id="KartUrun">
+<img src="img/urun_tshirt1.jpg" class="card-img-top">
+Marka<br>
+17.90TL
+<button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+</div>
+</div>
+      
+<div class="column" id="ColumnUrun">
+<div class="card" id="KartUrun">
+<img src="img/urun_tshirt1.jpg" class="card-img-top">
+Marka<br>
+17.90TL
+<button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+</div>
+</div>  
+    
+<div class="column" id="ColumnUrun">
+<div class="card" id="KartUrun">
+<img src="img/urun_tshirt2.jpg" class="card-img-top">
+Marka<br>
+17.90TL
+<button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+</div>
+</div>
+</div>
+    
+    </div>
+</div>
+    </div>
+    
+  </div>
+  <div class="card" id="KartArkaplan">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+       <center><button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <a id="KartBaslik">Ayakkabı ve Terlik</a>
+       </button></center>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body" >
+          
+        <div class="container-fluid">
+<div class="row">
+<div class="column" id="ColumnUrun">  
+<div class="card" id="KartUrun">
+    <img src="img/urun_tshirt1.jpg" class="card-img-top">
+    Marka<br>
+    17.90TL
+       <button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+</div>
+      </div>
+          
+<div class="column" id="ColumnUrun">
+<div class="card" id="KartUrun">
+<img src="img/urun_tshirt1.jpg" class="card-img-top">
+Marka<br>
+17.90TL
+<button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+                  
+</div></div>
+  
+<div class="column" id="ColumnUrun">         
+<div class="card" id="KartUrun">
+<img src="img/urun_tshirt2.jpg" class="card-img-top">
+Marka<br>
+17.90TL
+<button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+</div>
+</div>
+       
+<div class="column" id="ColumnUrun"> 
+<div class="card" id="KartUrun">
+<img src="img/urun_tshirt1.jpg" class="card-img-top">
+Marka<br>
+17.90TL
+<button type="button" class="btn btn-success" id="SatınAl">SATIN AL</button>
+</div>
+</div>
+      
+</div>
+    
+    </div>
+          
+      </div>
+    </div>
+  </div>
+</div>
+        
+        
+        
+<!------------------------------------------------------- FOOTER ------------------------------------------------------->
+
+       
+<div class="row" style="margin-left: 0.025%; margin-right: 0.025%;">
+         
+<div class="col-4"> 
+             <img style="height: 65px;" src="img/logowide.png">
+             <br>Copyight @ 2020 Tüm hakları saklıdır.</div>
+<div class="col-4">
+             <center>ADRES
+             <br>Peker Mahallesi, Avni Gemicioğlu Caddesi, No:67 Merkez / MANİSA
+             </center></div>
+<div class="col-4">
+             <center>İLETİŞİM
+             <br>ucuzagiydir@gmail.com
+             <br>
+            
+             <a href="https://facebook.com/"><img class="ikonlar" src="img/icon_facebook.png"></a>
+             <a href="https://instagram.com/"><img class="ikonlar" src="img/icon_instagram.png"></a>
+             <a href="https://twitter.com/"><img class="ikonlar" src="img/icon_twitter.png"></a>
+                 
+             </center></div>
+    <button onclick="topFunction()" id="UsteGit" title="Go to top">Üste Git</button>
+</div>
+     
+   <script>
+        
+mybutton = document.getElementById("UsteGit");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+        </script>
+           </div>
+    </body>
+</html>
